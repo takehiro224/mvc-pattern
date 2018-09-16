@@ -16,6 +16,10 @@
 		DF28DF4C2148BC9300B27814 /* mvc_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF4B2148BC9300B27814 /* mvc_patternUITests.swift */; };
 		DF28DF5D2148BCF500B27814 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF5C2148BCF500B27814 /* Task.swift */; };
 		DF28DF612148BEAB00B27814 /* TaskDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF602148BEAB00B27814 /* TaskDataSource.swift */; };
+		DF28DF632148CAA600B27814 /* TaskListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF622148CAA600B27814 /* TaskListCell.swift */; };
+		DF28DF652148D08500B27814 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF642148D08500B27814 /* TaskListViewController.swift */; };
+		DF28DF672148DBB100B27814 /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF662148DBB100B27814 /* CreateTaskView.swift */; };
+		DF28DF69214E216500B27814 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF68214E216500B27814 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		DF28DF4D2148BC9300B27814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF28DF5C2148BCF500B27814 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		DF28DF602148BEAB00B27814 /* TaskDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDataSource.swift; sourceTree = "<group>"; };
+		DF28DF622148CAA600B27814 /* TaskListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCell.swift; sourceTree = "<group>"; };
+		DF28DF642148D08500B27814 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		DF28DF662148DBB100B27814 /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
+		DF28DF68214E216500B27814 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,8 @@
 		DF28DF5A2148BCAE00B27814 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF28DF622148CAA600B27814 /* TaskListCell.swift */,
+				DF28DF662148DBB100B27814 /* CreateTaskView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 		DF28DF5B2148BCB600B27814 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DF28DF642148D08500B27814 /* TaskListViewController.swift */,
+				DF28DF68214E216500B27814 /* CreateTaskViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,9 +307,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF28DF2E2148BC9100B27814 /* ViewController.swift in Sources */,
+				DF28DF672148DBB100B27814 /* CreateTaskView.swift in Sources */,
+				DF28DF632148CAA600B27814 /* TaskListCell.swift in Sources */,
 				DF28DF612148BEAB00B27814 /* TaskDataSource.swift in Sources */,
 				DF28DF5D2148BCF500B27814 /* Task.swift in Sources */,
 				DF28DF2C2148BC9100B27814 /* AppDelegate.swift in Sources */,
+				DF28DF652148D08500B27814 /* TaskListViewController.swift in Sources */,
+				DF28DF69214E216500B27814 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
