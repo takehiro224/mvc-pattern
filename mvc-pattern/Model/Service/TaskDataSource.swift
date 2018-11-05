@@ -15,11 +15,6 @@ class TaskDataSource: NSObject {
     // UserDefaultsから保存したTask一覧を取得
     func loadData() {
         let userDefaults = UserDefaults.standard
-//        guard let taskDictionaries = userDefaults.object(forKey: "tasks") as? [[String: Any]] else { return }
-//        for dic in taskDictionaries {
-//            let task = Task(from: dic)
-//            tasks.append(task)
-//        }
         guard let t = userDefaults.object(forKey: "tasks") as? Data else { return }
         guard let unArchivedData = NSKeyedUnarchiver.unarchiveObject(with: t) as? [Task] else { return }
         self.tasks = unArchivedData
